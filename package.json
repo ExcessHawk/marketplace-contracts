@@ -1,0 +1,17 @@
+{
+  "name": "@marketplace/contracts",
+  "version": "0.1.0",
+  "description": "Esquemas de Zod que comparten el backend y el frontend del marketplace",
+  "type": "module",
+  "license": "MIT",
+  "main": "./schemas/index.ts",
+  "types": "./schemas/index.ts",
+  "exports": {
+    ".": "./schemas/index.ts",
+    "./*": "./schemas/*"
+  },
+  "files": ["schemas"],
+  "dependencies": {
+    "zod": "^3.25.76"
+  }
+}
