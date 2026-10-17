@@ -11,3 +11,4 @@ export * from './disputes';
 export * from './reviews';
 export * from './chat';
 export * from './demo';
+export * from './uploads';
